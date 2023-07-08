@@ -1,0 +1,435 @@
+using System;
+using System.Collections.Generic;
+
+namespace takimsec
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            List<Takimlar> takimlars = new List<Takimlar>();
+            
+
+            Takimlar t1 = new Takimlar("Manchester City", 85);
+            takimlars.Add(t1);
+            Takimlar t2 = new Takimlar("Bayern München", 85);
+            takimlars.Add(t2);
+            Takimlar t3 = new Takimlar("Real Madrid", 85);
+            takimlars.Add(t3);
+            Takimlar t4 = new Takimlar("Liverpool", 84);
+            takimlars.Add(t4);
+            Takimlar t5 = new Takimlar("Paris Saint-Germain", 84);
+            takimlars.Add(t5);
+            Takimlar t6 = new Takimlar("Atletico de Madrid", 83);
+            takimlars.Add(t6);
+            Takimlar t7 = new Takimlar("FC Barcelona", 83);
+            takimlars.Add(t7);
+            Takimlar t8 = new Takimlar("Arsenal", 82);
+            takimlars.Add(t8);
+            Takimlar t9 = new Takimlar("Chealsea", 82);
+            takimlars.Add(t9);
+            Takimlar t10 = new Takimlar("Manchester United", 82);
+            takimlars.Add(t10);
+            Takimlar t11 = new Takimlar("Inter", 82);
+            takimlars.Add(t11);
+            Takimlar t12 = new Takimlar("Juventus", 82);
+            takimlars.Add(t12);
+            Takimlar t13 = new Takimlar("Totthenam Hotspur", 81);
+            takimlars.Add(t13);
+            Takimlar t14 = new Takimlar("Borussia Dortmund", 81);
+            takimlars.Add(t14);
+            Takimlar t15 = new Takimlar("AC Milan", 81);
+            takimlars.Add(t15);
+            Takimlar t16 = new Takimlar("Newcastle United", 80);
+            takimlars.Add(t16);
+            Takimlar t17 = new Takimlar("Napoli", 80);
+            takimlars.Add(t17);
+            Takimlar t18 = new Takimlar("Roma", 80);
+            takimlars.Add(t18);
+            Takimlar t19 = new Takimlar("Sevilla FC", 80);
+            takimlars.Add(t19);
+            Takimlar t20 = new Takimlar("Leipzig", 81);
+            takimlars.Add(t20);
+            Takimlar t21 = new Takimlar("Villereal", 80);
+            takimlars.Add(t21);
+            Takimlar t22 = new Takimlar("Aston Villa", 79);
+            takimlars.Add(t22);
+            Takimlar t23 = new Takimlar("Bayer Leverkusen", 79);
+            takimlars.Add(t23);
+            Takimlar t24 = new Takimlar("Lazio", 79);
+            takimlars.Add(t24);
+            Takimlar t25 = new Takimlar("Athletic Club de Bilbao", 79);
+            takimlars.Add(t25);
+            Takimlar t26 = new Takimlar("Real Betis Balompie", 79);
+            takimlars.Add(t26);
+            Takimlar t27 = new Takimlar("Real Sociedad", 79);
+            takimlars.Add(t27);
+            Takimlar t28 = new Takimlar("SL Benfica", 79);
+            takimlars.Add(t28);
+            Takimlar t29 = new Takimlar("West Ham United", 78);
+            takimlars.Add(t29);
+            Takimlar t30 = new Takimlar("Entracht Frankfurt", 78);
+            takimlars.Add(t30);
+            Takimlar t31 = new Takimlar("Fiorentina", 78);
+            takimlars.Add(t31);
+            Takimlar t32 = new Takimlar("Atalanta", 78);
+            takimlars.Add(t32);
+            Takimlar t33 = new Takimlar("Leicester City", 78);
+            takimlars.Add(t33);
+            Takimlar t34 = new Takimlar("Wolverhampton Wanderers", 78);
+            takimlars.Add(t34);
+            Takimlar t35 = new Takimlar("Olympique de Marseille", 78);
+            takimlars.Add(t35);
+            Takimlar t36 = new Takimlar("FC Porto", 78);
+            takimlars.Add(t36);
+            Takimlar t37 = new Takimlar("Sporting CP", 78);
+            takimlars.Add(t37);
+            Takimlar t38 = new Takimlar("Nottingham Forest", 77);
+            takimlars.Add(t38);
+            Takimlar t39 = new Takimlar("Brighton & Hove Albion", 77);
+            takimlars.Add(t39);
+            Takimlar t40 = new Takimlar("Borussia Mönchengladbach", 77);
+            takimlars.Add(t40);
+            Takimlar t41 = new Takimlar("Olympique Lyonnais", 77);
+            takimlars.Add(t41);
+            Takimlar t42 = new Takimlar("AS Monaco", 77);
+            takimlars.Add(t42);
+            Takimlar t43 = new Takimlar("Galatasaray", 77);
+            takimlars.Add(t43);
+            Takimlar t44 = new Takimlar("Stade Rennais FC", 77);
+            takimlars.Add(t44);
+            Takimlar t45 = new Takimlar("RC Celta de Vigo", 77);
+            takimlars.Add(t45);
+            Takimlar t46 = new Takimlar("Getafe", 77);
+            takimlars.Add(t46);
+            Takimlar t47 = new Takimlar("Espanyol", 77);
+            takimlars.Add(t47);
+            Takimlar t48 = new Takimlar("Ajax", 77);
+            takimlars.Add(t48);
+            Takimlar t49 = new Takimlar("Everton", 76);
+            takimlars.Add(t49);
+            Takimlar t50 = new Takimlar("Crystal Palace", 76);
+            takimlars.Add(t50);
+            Takimlar t51 = new Takimlar("Flamengo", 76);
+            takimlars.Add(t51);
+            Takimlar t52 = new Takimlar("Freiburg", 76);
+            takimlars.Add(t52);
+            Takimlar t53 = new Takimlar("TSG Hoffeheim", 76);
+            takimlars.Add(t53);
+            Takimlar t54 = new Takimlar("Racing Club de Lens", 76);
+            takimlars.Add(t54);
+            Takimlar t55 = new Takimlar("LOSC Lille", 76);
+            takimlars.Add(t55);
+            Takimlar t56 = new Takimlar("OGC Nice", 76);
+            takimlars.Add(t56);
+            Takimlar t57 = new Takimlar("River Plate", 76);
+            takimlars.Add(t57);
+            Takimlar t58 = new Takimlar("SC Braga", 76);
+            takimlars.Add(t58);
+            Takimlar t59 = new Takimlar("Palmeiras", 76);
+            takimlars.Add(t59);
+            Takimlar t60 = new Takimlar("Fulham", 76);
+            takimlars.Add(t60);
+            Takimlar t61 = new Takimlar("Vfl Wolfsburg", 76);
+            takimlars.Add(t61);
+            Takimlar t62 = new Takimlar("Trabzonspor", 76);
+            takimlars.Add(t62);
+            Takimlar t63 = new Takimlar("AC Monza", 76);
+            takimlars.Add(t63);
+            Takimlar t64 = new Takimlar("Valencia CF", 76);
+            takimlars.Add(t64);
+            Takimlar t65 = new Takimlar("CA Osasuna", 76);
+            takimlars.Add(t65);
+            Takimlar t66 = new Takimlar("Rayo Vallecano", 76);
+            takimlars.Add(t66);
+            Takimlar t67 = new Takimlar("Girona FC", 76);
+            takimlars.Add(t67);
+            Takimlar t68 = new Takimlar("PSV", 76);
+            takimlars.Add(t68);
+            Takimlar t69 = new Takimlar("Leeds United", 75);
+            takimlars.Add(t69);
+            Takimlar t70 = new Takimlar("Clube Atletico Minerio", 75);
+            takimlars.Add(t70);
+            Takimlar t71 = new Takimlar("Southampton", 75);
+            takimlars.Add(t71);
+            Takimlar t72 = new Takimlar("1.FC Union Berlin", 75);
+            takimlars.Add(t72);
+            Takimlar t73 = new Takimlar("Torino F.C.", 75);
+            takimlars.Add(t73);
+            Takimlar t74 = new Takimlar("Udinese Calcio", 75);
+            takimlars.Add(t74);
+            Takimlar t75 = new Takimlar("Fenerbahçe SK", 75);
+            takimlars.Add(t75);
+            Takimlar t76 = new Takimlar("Beşiktaş JK", 75);
+            takimlars.Add(t76);
+            Takimlar t77 = new Takimlar("U.S. Sassuolo Calcio", 75);
+            takimlars.Add(t77);
+            Takimlar t78 = new Takimlar("Brentford", 75);
+            takimlars.Add(t78);
+            Takimlar t79 = new Takimlar("1. FSV Mainz 05", 75);
+            takimlars.Add(t79);
+            Takimlar t80 = new Takimlar("Cadiz CF", 75);
+            takimlars.Add(t80);
+            Takimlar t81 = new Takimlar("Bologna", 75);
+            takimlars.Add(t81);
+            Takimlar t82 = new Takimlar("RCD Mallorca", 75);
+            takimlars.Add(t82);
+            Takimlar t83 = new Takimlar("Real Valladolid CF", 75);
+            takimlars.Add(t83);
+            Takimlar t84 = new Takimlar("Club Brugge KV", 75);
+            takimlars.Add(t84);
+            Takimlar t85 = new Takimlar("Feyenoord", 75);
+            takimlars.Add(t85);
+            Takimlar t86 = new Takimlar("SK Slavia Praha", 74);
+            takimlars.Add(t86);
+            Takimlar t87 = new Takimlar("AEK Athens", 74);
+            takimlars.Add(t87);
+            Takimlar t88 = new Takimlar("Club Athletico Paranaense", 74);
+            takimlars.Add(t88);
+            Takimlar t89 = new Takimlar("Internacional", 74);
+            takimlars.Add(t89);
+            Takimlar t90 = new Takimlar("1. FC Köln", 74);
+            takimlars.Add(t90);
+            Takimlar t91 = new Takimlar("Vfb Stuttgart", 74);
+            takimlars.Add(t91);
+            Takimlar t92 = new Takimlar("US Salernitana 1919", 74);
+            takimlars.Add(t92);
+            Takimlar t93 = new Takimlar("FC Augsburg", 74);
+            takimlars.Add(t93);
+            Takimlar t94 = new Takimlar("FC Augsburg", 74);
+            takimlars.Add(t94);
+            Takimlar t95 = new Takimlar("Montpellier Herault SC", 74);
+            takimlars.Add(t95);
+            Takimlar t96 = new Takimlar("FC Nantes", 74);
+            takimlars.Add(t96);
+            Takimlar t97 = new Takimlar("Celtic", 74);
+            takimlars.Add(t97);
+            Takimlar t98 = new Takimlar("Boca Juniors", 74);
+            takimlars.Add(t98);
+
+
+            Console.WriteLine("1. kisi kim:");
+            string kisi1 =Convert.ToString( Console.ReadLine());
+            kisi1=kisi1.ToUpper();
+            Console.WriteLine("");
+
+            Console.WriteLine("2. kisi kim: ");
+            string kisi2 = Convert.ToString(Console.ReadLine());
+            kisi2 = kisi2.ToUpper();
+            Console.WriteLine("");
+
+
+            kisisec k = new kisisec(kisi1,kisi2);
+
+            Console.WriteLine("");
+
+            Console.Write("1. Takim için Class seçin: ");
+            string sınıf = Convert.ToString( Console.ReadLine());
+            sınıf = sınıf.ToUpper();
+            Console.WriteLine("");
+            Console.Write("2. Takim için Class seçin: ");
+            string sınıf2 = Convert.ToString( Console.ReadLine());
+            sınıf2 = sınıf2.ToUpper();
+            Console.WriteLine("");
+            Console.WriteLine("");
+
+            List<Takimlar> a = takimlars;
+            TakimClass(a, sınıf );
+            TakimClass(a, sınıf2);
+
+            takimsec(TakimClass(a,sınıf), TakimClass(a,sınıf2), kisi1, kisi2);
+
+
+
+
+
+
+
+            
+
+
+
+
+
+           
+        }
+
+        public class kisisec
+        {
+            string[] kisiler = new string[2];
+            
+            string p1;
+            string p2;
+            public kisisec(string p1, string p2)
+            {
+                this.p1 = p1;
+                this.p2 = p2;
+
+                Random rnd = new Random();
+                int sayi1 = rnd.Next(0,2);
+                int sayi2 = rnd.Next(0,2);
+
+                if (sayi1 == sayi2)
+                {
+                    while(sayi1 == sayi2)
+                    {
+                        sayi2 = rnd.Next(0, 2);
+                        sayi1 = rnd.Next(0, 2);
+
+                    }
+                }
+
+                kisiler[sayi1] = Convert.ToString(p1);
+                kisiler[sayi2] = Convert.ToString(p2);
+
+                Console.WriteLine(kisiler[sayi1].ToUpper() + " vs " + kisiler[sayi2].ToUpper()); ;
+
+
+            }
+            
+
+        }
+
+        public static List<Takimlar> TakimClass(List<Takimlar> x,string v1) {
+
+            List<Takimlar> A = new List<Takimlar>();
+            List<Takimlar> B = new List<Takimlar>();
+            List<Takimlar> C = new List<Takimlar>();
+            List<Takimlar> D = new List<Takimlar>();
+            List<Takimlar> E = new List<Takimlar>();
+
+            foreach (var itemt in x)
+            {if (itemt.ovr > 82)
+                { A.Add(itemt);
+                }}
+            foreach (var itemt in x)
+            {
+                if (itemt.ovr < 83 & itemt.ovr>80)
+                {
+                    B.Add(itemt);
+                }
+            }
+            foreach (var itemt in x)
+            {
+                if (itemt.ovr > 77 & itemt.ovr<81)
+                {
+                    C.Add(itemt);
+                }
+            }
+            foreach (var itemt in x)
+            {
+                if (itemt.ovr==77 || itemt.ovr == 76)
+                {
+                    D.Add(itemt);
+                }
+            }
+            foreach (var itemt in x)
+            {
+                if (itemt.ovr == 74 || itemt.ovr == 75)
+                {
+                    E.Add(itemt);
+                }
+            }
+
+            if (v1 == "A") return A;
+            else if (v1 == "B") return B;
+            else if (v1 == "C") return C;
+            else if (v1 == "D") return D;
+            else { return E; }
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+        public static void takimsec(List<Takimlar> a,List<Takimlar> b,string kisi1,string kisi2)
+        {
+
+           
+
+            int kontrol = 1;
+
+            while (kontrol == 1) {
+                Random rnd = new Random();
+                int sayi1 = rnd.Next(a.Count - 1);
+                int sayi2 = rnd.Next(b.Count - 1);
+
+                while (sayi1 == sayi2)
+                {
+                    sayi1 = rnd.Next(a.Count - 1);
+                    sayi2 = rnd.Next(b.Count - 1);
+                }
+                    Console.WriteLine("------------------------------------------");
+                    Console.WriteLine(kisi1 + ": " + a[sayi1].takimadi + " vs " + kisi2 + ": " + b[sayi2].takimadi);
+                    Console.WriteLine("------------------------------------------");
+                    Console.WriteLine("");
+                    Console.WriteLine("");
+
+                    Console.WriteLine("Tekrar çevirmek için 1'e devam etmek için 0'a basın: ");
+                    kontrol = Convert.ToInt32(Console.ReadLine());
+                
+
+
+
+                
+            }
+
+            Console.WriteLine("Tebrikler Yine Bekleriz.....");
+
+
+
+
+          
+
+            
+
+        }
+
+                
+
+                
+
+
+
+
+        }
+
+
+            
+            
+            
+
+            
+
+
+            
+
+
+
+
+        }
+
+
+
+
+        public class Takimlar
+        {
+            public string takimadi;
+            public int ovr;
+
+
+
+            public Takimlar(string takimadi, int ovr)
+            {
+                this.takimadi = takimadi;
+                this.ovr = ovr;
+            }
+        }
